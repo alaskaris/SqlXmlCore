@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SqlXmlCore
 {
-    public class BuldLoad
+    public class BulkLoad
     {
     }
 }
