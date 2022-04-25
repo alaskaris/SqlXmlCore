@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AD761D8C-94E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlXmlCore", "src\SqlXmlCore\SqlXmlCore.csproj", "{53A86564-AC1E-491B-88AC-80F73534AD18}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A852B936-EF1C-41CC-B4A1-458E6E728897}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{76AB3388-7F00-4EF8-84C8-8EBE92FD17AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlXmlCore.Tests", "test\SqlXmlCore.Tests\SqlXmlCore.Tests.csproj", "{02FA84DF-E23D-4ECD-A829-A9F9D301544A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +21,17 @@ Global
 		{53A86564-AC1E-491B-88AC-80F73534AD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53A86564-AC1E-491B-88AC-80F73534AD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53A86564-AC1E-491B-88AC-80F73534AD18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02FA84DF-E23D-4ECD-A829-A9F9D301544A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FA84DF-E23D-4ECD-A829-A9F9D301544A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FA84DF-E23D-4ECD-A829-A9F9D301544A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FA84DF-E23D-4ECD-A829-A9F9D301544A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{53A86564-AC1E-491B-88AC-80F73534AD18} = {AD761D8C-94E3-4422-8FE6-84D53388AFBA}
+		{02FA84DF-E23D-4ECD-A829-A9F9D301544A} = {76AB3388-7F00-4EF8-84C8-8EBE92FD17AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29F8573E-AC5F-4127-8BC3-B2D825EE9D2D}

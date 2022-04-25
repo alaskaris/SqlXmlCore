@@ -1,0 +1,17 @@
+﻿<ROOT>
+	<Customers>
+		<CustomerID>1111</CustomerID>
+		<CompanyName>Sean Chai</CompanyName>
+		<City>New York</City>
+	</Customers>
+	<Customers>
+		<CustomerID>1112</CustomerID>
+		<CompanyName>Tom Johnston</CompanyName>
+		<City>Los Angeles</City>
+	</Customers>
+	<Customers>
+		<CustomerID>1113</CustomerID>
+		<CompanyName>Institute of Art</CompanyName>
+		<City>Chicago</City>
+	</Customers>
+</ROOT>

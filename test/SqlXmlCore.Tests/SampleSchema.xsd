@@ -1,0 +1,18 @@
+﻿<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:sql="urn:schemas-microsoft-com:mapping-schema">
+	<xsd:element name="ROOT" sql:is-constant="1" >
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Customers" sql:relation="Cust" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="CustomerID"  type="xsd:integer" />
+							<xsd:element name="CompanyName" type="xsd:string" />
+							<xsd:element name="City"        type="xsd:string" />
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
